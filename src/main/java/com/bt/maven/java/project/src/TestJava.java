@@ -1,4 +1,4 @@
-package com.bt.maven.java.project;
+package com.bt.maven.java.project.src;
 
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
@@ -7,7 +7,7 @@ import org.springframework.util.StringUtils;
 public class TestJava {
 
 
-    String TextCompressor(String input) {
+    public String TextCompressor(String input) {
         if (StringUtils.isEmpty(input)) {
             return "";
         }
